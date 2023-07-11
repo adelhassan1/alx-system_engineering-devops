@@ -1,2 +1,2 @@
 #!/bin/bash
-find -D tree -empty -print
+find . -empty -printf "%f\n"
