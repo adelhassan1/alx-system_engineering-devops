@@ -10,6 +10,6 @@ do
 		echo $i
 		i=$(( i + 1 ))
 	done
-	i=0
+	i=1
 	hour=$(( hour + 1 ))
 done
