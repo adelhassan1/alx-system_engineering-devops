@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# displays The content of the current directory.
+LIST=$(ls)
+for i in $LIST; do
+	echo "$i" | sed -e 's/^[0-9]*-//'
+done
