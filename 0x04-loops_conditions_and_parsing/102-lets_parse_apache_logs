@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# parse Apache logs.
+FILE="apache-access.log"
+while read -r line
+do
+	echo "$line" | awk -F " " '{print $1, $9}'
+done < "$FILE"
