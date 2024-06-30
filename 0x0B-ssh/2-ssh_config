@@ -1,0 +1,4 @@
+Host 100.25.155.21
+	User ubuntu
+	IdentityFile ~/.ssh/school
+	PasswordAuthentication no
