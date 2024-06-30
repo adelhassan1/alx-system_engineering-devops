@@ -2,4 +2,4 @@
 # creating an RSA key pair.
 KEY_NAME="school"
 PASSPHRASE="betty"
-ssh-keygen -t rsa -b 4096 -f ~/.ssh/$KEY_NAME -N $PASSPHRASE
+ssh-keygen -t rsa -b 4096 -f ./$KEY_NAME -N $PASSPHRASE
